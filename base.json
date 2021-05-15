@@ -1,0 +1,305 @@
+{
+"players": {
+"417341261": {
+"lvl": 1,
+"hp": 15,
+"maxHP": 15,
+"dmg": 1,
+"money": 65,
+"liker": 79,
+"kills": 1,
+"XP": 1,
+"reffP": false,
+"reff": false,
+"regen": 1,
+"refero": "Нет",
+"energy": 10,
+"cases": [],
+"itemsH": [],
+"itemsE": []
+},
+"452321650": {
+"lvl": 2,
+"hp": 55,
+"maxHP": 55,
+"dmg": 18,
+"money": 20,
+"liker": 28,
+"kills": 10,
+"XP": 0,
+"reffP": true,
+"reff": true,
+"regen": 4,
+"refero": "5103554473957940",
+"energy": 10,
+"cases": [
+"обычный кейс"
+],
+"itemsH": [],
+"itemsE": []
+},
+"467112187": {
+"lvl": 1,
+"hp": 15,
+"maxHP": 15,
+"dmg": 1,
+"money": 0,
+"liker": 2,
+"kills": 0,
+"XP": 0,
+"reffP": false,
+"reff": false,
+"regen": 1,
+"refero": "нет",
+"energy": 10,
+"cases": [],
+"itemsH": [],
+"itemsE": []
+},
+"488360868": {
+"lvl": 1,
+"hp": 15,
+"maxHP": 15,
+"dmg": 1,
+"money": 0,
+"liker": 2,
+"kills": 0,
+"XP": 0,
+"reffP": false,
+"reff": false,
+"regen": 1,
+"refero": "Нет",
+"energy": 10,
+"cases": [],
+"itemsH": [],
+"itemsE": []
+},
+"531545140": {
+"lvl": 1,
+"hp": 15,
+"maxHP": 15,
+"dmg": 1,
+"money": 0,
+"liker": 2,
+"kills": 0,
+"XP": 0,
+"reffP": false,
+"reff": false,
+"regen": 1,
+"refero": "Нет",
+"energy": 10,
+"cases": [],
+"itemsH": [],
+"itemsE": []
+},
+"536753563": {
+"lvl": 1,
+"hp": 15,
+"maxHP": 15,
+"dmg": 1,
+"money": 10,
+"liker": 2,
+"kills": 0,
+"XP": 0,
+"reffP": false,
+"reff": false,
+"regen": 1,
+"refero": "Нет",
+"energy": 10,
+"cases": [],
+"itemsH": [],
+"itemsE": []
+},
+"545865852": {
+"lvl": 1,
+"hp": 17,
+"maxHP": 17,
+"dmg": 1,
+"money": 47,
+"liker": 50,
+"kills": 1,
+"XP": 1,
+"reffP": true,
+"reff": true,
+"regen": 2,
+"refero": "4286579388356141",
+"energy": 10,
+"cases": [],
+"itemsH": [],
+"itemsE": []
+},
+"552744162": {
+"lvl": 1,
+"hp": 15,
+"maxHP": 15,
+"dmg": 1,
+"money": 23,
+"liker": 63,
+"kills": 1,
+"XP": 1,
+"reffP": false,
+"reff": false,
+"regen": 1,
+"refero": "нет",
+"energy": 10,
+"cases": [],
+"itemsH": [],
+"itemsE": []
+},
+"554520751": {
+"lvl": 1,
+"hp": 15,
+"maxHP": 15,
+"dmg": 1,
+"money": 0,
+"liker": 2,
+"kills": 0,
+"XP": 0,
+"reffP": false,
+"reff": false,
+"regen": 1,
+"refero": "Нет",
+"energy": 10,
+"cases": [],
+"itemsH": [],
+"itemsE": []
+},
+"594797612": {
+"lvl": 1,
+"hp": 15,
+"maxHP": 15,
+"dmg": 1,
+"money": 0,
+"liker": 2,
+"kills": 0,
+"XP": 0,
+"reffP": false,
+"reff": false,
+"regen": 1,
+"refero": "Нет",
+"energy": 10,
+"cases": [],
+"itemsH": [],
+"itemsE": []
+},
+"621457794": {
+"lvl": 7,
+"hp": 48,
+"maxHP": 55,
+"dmg": 125,
+"money": 0,
+"liker": 30,
+"kills": 68,
+"XP": 8,
+"reffP": true,
+"reff": true,
+"regen": 11,
+"refero": "3482341785349179",
+"energy": 10,
+"cases": [],
+"itemsH": [],
+"itemsE": []
+}
+},
+"hsa": [
+"452321650",
+417341261,
+531545140,
+554520751,
+488360868,
+594797612,
+536753563,
+621457794,
+467112187,
+545865852,
+552744162
+],
+"boss": {
+"activate": true,
+"hp": 842
+},
+"referas": {
+"5492352016846363": "452321650",
+"5103554473957940": "452321650",
+"3482341785349179": "621457794",
+"4286579388356141": "545865852"
+},
+"relos": 2,
+"items": {
+"обычный кейс": {
+"name": "common_case",
+"rusname": "обычный кейс",
+"class": "case",
+"itemes": [
+"сосиска"
+],
+"sellfor": 10
+},
+"легендарный кейс": {
+"name": "legendary_case",
+"rusname": "легендарный кейс",
+"class": "case",
+"itemes": [
+"сосиска",
+"чай"
+],
+"sellfor": 60
+},
+"редкий кейс": {
+"name": "rare_case",
+"rusname": "редкий кейс",
+"class": "case",
+"itemes": [
+"сосиска",
+"чай"
+],
+"sellfor": 30
+},
+"золотой кейс": {
+"name": "golden_case",
+"rusname": "золотой кейс",
+"class": "case",
+"itemes": [
+"сосиска",
+"сосиска",
+"чай"
+],
+"sellfor": 40
+},
+"кристальный кейс": {
+"name": "crystal_case",
+"rusname": "кристальный кейс",
+"class": "case",
+"itemes": [
+"сосиска",
+"чай"
+],
+"sellfor": 50
+},
+"секретный кейс": {
+"name": "secret_case",
+"rusname": "секретный кейс",
+"class": "case",
+"itemes": [
+"сосиска",
+"чай",
+"чай"
+],
+"sellfor": 120
+},
+"сосиска": {
+"name": "сосиска",
+"rusname": "сосиска",
+"class": "itemH",
+"sellfor": "2",
+"baff": 2
+},
+"чай": {
+"name": "чай",
+"rusname": "чай",
+"class": "itemE",
+"sellfor": "2",
+"baff": 2
+}
+}
+}

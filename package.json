@@ -1,0 +1,20 @@
+{
+  "name": "vkbot",
+  "version": "1.0.0",
+  "description": "Bot for VK",
+  "main": "VKB.js",
+    "scripts": {
+        "start": "node VKB.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+  "keywords": [],
+  "author": "AlexandrMerlinov",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "mysql": "^2.18.1",
+    "nodemailer": "^6.4.17",
+    "vk-io": "^4.0.0-rc.30"
+  }
+}
