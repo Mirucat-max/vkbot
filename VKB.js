@@ -12,11 +12,7 @@ const vk = new VK ( {
     //ну а тут необязательная переменная, которая в разы ускоряет работу бота
     pollingGroupId: 192964126
 });
-let port = process.env.PORT;
-if (port == null || port == "") {
-    port = 8000;
-}
-app.listen(port);
+
 function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min)) + min;
 }
