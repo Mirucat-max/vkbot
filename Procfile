@@ -1,1 +1,1 @@
-web: node VKB.js
+bot: node VKB.js
