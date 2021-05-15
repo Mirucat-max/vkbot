@@ -1,8 +1,8 @@
 //Добавляем константу VK в которой будут будут все методы из библиотеки vk-io
 const {VK, Keyboard} = require('vk-io');
 const fs = require('fs');
-const settings = require('./DataBase/Settings.json');
-const base = require('./DataBase/base.json');
+const settings = require('./Settings.json');
+const base = require('./base.json');
 //теперь применяем методу (константе) vk значение раннее созданного VK
 const vk = new VK ( {
     //добавляем токен вк для работы с сообществом
@@ -58,7 +58,7 @@ vk.updates.on("message", async(context, next)=>{
 });
 
 setInterval(()=>{
-    fs.writeFileSync("./DataBase/base.json", JSON.stringify(base, null, "\r"))
+    fs.writeFileSync("./base.json", JSON.stringify(base, null, "\r"))
 }, 300)
 
 //Если сообщение от пользователя = ↓ любыми буквами то:
